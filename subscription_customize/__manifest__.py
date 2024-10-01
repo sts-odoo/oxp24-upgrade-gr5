@@ -6,7 +6,7 @@
     'sequence': 1,
     'author': 'Odoo S.A.',
     'website': 'http://www.odoo.com',
-    'depends': ['sale', 'sale_subscription'],
+    'depends': ['sale_management'],
     'data': [
         'views/subscription.xml',
     ],
