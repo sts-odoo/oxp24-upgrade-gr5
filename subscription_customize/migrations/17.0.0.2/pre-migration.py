@@ -11,7 +11,7 @@ def migrate(cr, version):
     # Create new columns in the 'sale_order' table
     util.create_column(cr, 'sale_order', 'parent_id', 'integer')
     util.create_column(cr, 'sale_order', 'child_recurring_total', 'double-precision')
-    util.create_column(cr, 'sale_order', 'amount_at_start', 'double_precision')
+    util.create_column(cr, 'sale_order', 'amount_at_start', 'double-precision')
 
     # Log that column creation is complete
     _logger.info('Columns created successfully')
